@@ -1,0 +1,40 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background: #EFEFEF;
+  color: #333;
+}
+
+html, body, p {
+  margin: 0;
+}
+
+#about_us {
+  width: 80%;
+  border: 1px solid #333;
+  max-width: 1024px;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+nav{
+  display: inline;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+#gallery {
+  display: flex;
+}
+
+#resources{
+  text-align: center;
+
+}
